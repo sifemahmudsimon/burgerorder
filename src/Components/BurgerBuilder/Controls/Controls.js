@@ -23,7 +23,7 @@ const BuildControl = props => {
 
 const Controls = (props) => {
   return (
-    <div className='container ml-md-5' style={{textAlign:"center"}}>
+    <div className='container ml-md-5' style={{textAlign:"center"}} >
         <Card style={{
             marginTop:"30px",
             marginBottom:"30px",
@@ -33,7 +33,7 @@ const Controls = (props) => {
                 backgroundColor:"#D70F64",
                 color:"white",
             }}><h4>Add Ingredients</h4></CardHeader>
-            <CardBody>
+            <CardBody style={{background: "linear-gradient(135deg, #f0f0f0, #ffffff)"}}>
                 {
                     controls.map(item=>{
                         return <BuildControl

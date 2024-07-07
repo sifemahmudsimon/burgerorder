@@ -21,9 +21,11 @@ const Burger = (props) => {
 
   return (
     <div className='Burger'>
+        <span className="Burger">
         <Ingredient type="bread-top"/>
         {ingredientArr}
         <Ingredient type="bread-bottom"/>
+        </span>
     </div>
   )
 }

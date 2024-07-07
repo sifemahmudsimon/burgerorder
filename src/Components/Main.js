@@ -4,10 +4,11 @@ import BurgerBuilder from './BurgerBuilder/BurgerBuilder'
 import { Route, Routes } from 'react-router-dom'
 import Orders from './Orders/Orders'
 import Checkout from './Checkout/Checkout'
+import './Main.css'
 
 const Main = () => {
   return (
-    <div>
+    <div className="burger-background" style={{height:'100vh'}}>
         <Header/>
         <div className="container">
           <Routes>
